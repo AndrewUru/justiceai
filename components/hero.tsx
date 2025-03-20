@@ -13,7 +13,7 @@ export default function Hero() {
           rel="noreferrer"
           className="hover:opacity-80 transition-opacity"
         >
-          <SupabaseLogo className="h-10" />
+          <SupabaseLogo />
         </a>
         <span className="border-l rotate-45 h-6 opacity-50" />
         <a
@@ -22,7 +22,7 @@ export default function Hero() {
           rel="noreferrer"
           className="hover:opacity-80 transition-opacity"
         >
-          <NextLogo className="h-10" />
+          <NextLogo />
         </a>
       </div>
 

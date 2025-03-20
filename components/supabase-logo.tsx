@@ -1,6 +1,7 @@
-export default function SupabaseLogo() {
+export default function SupabaseLogo({ className }: { className?: string }) {
   return (
     <svg
+      className={className}
       aria-label="Supabase logo"
       width="140"
       height="30"

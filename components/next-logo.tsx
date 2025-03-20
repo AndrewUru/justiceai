@@ -1,6 +1,7 @@
-export default function NextLogo() {
+export default function NextLogo({ className = "" }: { className?: string }) {
   return (
     <svg
+      className={className}
       aria-label="Next.js logotype"
       height="68"
       role="img"
