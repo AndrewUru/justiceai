@@ -39,9 +39,9 @@ export default function Hero() {
 
       {/* Llamado a la acción */}
       <div className="flex gap-4">
-        <Link href="/reportar">
+        <Link href="/discrimination">
           <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:bg-gray-100 transition">
-            Reportar un Caso
+            Ver Casos
           </button>
         </Link>
         <Link href="/mapa">
