@@ -1,10 +1,8 @@
-import NextLogo from "./next-logo";
-import SupabaseLogo from "./supabase-logo";
 import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="w-full bg-gradient-to-b from-gray-900 to-gray-700 py-16 text-white text-center flex flex-col items-center gap-8 px-6">
+    <section className="w-screen bg-gradient-to-b from-gray-900 to-gray-700 py-16 text-white text-center flex flex-col items-center ">
       {/* Título principal */}
       <h1 className="text-4xl lg:text-5xl font-bold max-w-2xl leading-tight">
         Datos Abiertos para la Igualdad

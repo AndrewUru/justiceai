@@ -64,8 +64,8 @@ export default function DiscriminationEvents() {
           <tbody className="divide-y divide-gray-200 bg-white">
             {events.map((event, index) => (
               <tr key={index}>
-                <td className="px-4 py-2 whitespace-nowrap">{event.tipo}</td>
-                <td className="px-4 py-2">
+                <td className="px-1 py-2 whitespace-nowrap">{event.tipo}</td>
+                <td className="px-1 py-2">
                   {event.observaciones ?? "Sin info"}
                 </td>
                 <td className="px-4 py-2">{event.fecha_hecho ?? "-"}</td>
